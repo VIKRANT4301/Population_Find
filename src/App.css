@@ -1,0 +1,102 @@
+/* General body styling */
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: goldenrod;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.container {
+  width: 100%;
+  max-width: 500px;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+/* Styling the form elements */
+form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+  font-size: 18px;
+  color: #4e15ed;
+  margin-bottom: 5px;
+}
+
+input[type='text'] {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+button {
+  padding: 10px;
+  background-color: #a1db34;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #2980b9;
+}
+
+/* Handling loading, error and result display */
+p {
+  font-size: 18px;
+  color: #000000;
+}
+
+.loading {
+  color: #f39c12;
+  font-style: italic;
+}
+
+.error {
+  color: #e74c3c;
+  font-weight: bold;
+}
+
+.result {
+  margin-top: 20px;
+  color: #27ae60;
+  font-weight: bold;
+}
+
+/* Responsive styling for smaller devices */
+@media (max-width: 600px) {
+  .container {
+      padding: 15px;
+      width: 90%;
+  }
+
+  input[type='text'],
+  button {
+      font-size: 14px;
+  }
+
+  p {
+      font-size: 16px;
+  }
+}
