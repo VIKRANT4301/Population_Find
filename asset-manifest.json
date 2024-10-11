@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/Population_Find/static/css/main.d04487cd.css",
+    "main.js": "/Population_Find/static/js/main.6fb9af8e.js",
+    "static/js/453.d8036db0.chunk.js": "/Population_Find/static/js/453.d8036db0.chunk.js",
+    "index.html": "/Population_Find/index.html",
+    "main.d04487cd.css.map": "/Population_Find/static/css/main.d04487cd.css.map",
+    "main.6fb9af8e.js.map": "/Population_Find/static/js/main.6fb9af8e.js.map",
+    "453.d8036db0.chunk.js.map": "/Population_Find/static/js/453.d8036db0.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.d04487cd.css",
+    "static/js/main.6fb9af8e.js"
+  ]
+}
